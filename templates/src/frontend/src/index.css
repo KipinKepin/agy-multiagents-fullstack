@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@theme {
+  --color-brand-amber-400: #FBBF24;
+  --color-brand-amber-500: #F59E0B;
+  --color-brand-amber-600: #D97706;
+  --color-brand-crimson-500: #F43F5E;
+  --color-brand-crimson-600: #E11D48;
+}
+
+@layer base {
+  body {
+    @apply bg-[#090D16] text-slate-300 font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(30, 41, 59, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-panel-hover:hover {
+    background: rgba(30, 41, 59, 0.85);
+    border-color: rgba(245, 158, 11, 0.4);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px rgba(245, 158, 11, 0.2);
+  }
+}

@@ -1,0 +1,4 @@
+code,discount_type,discount_value
+CINEMA20,percentage,20
+POPCORN50,percentage,50
+HEMAT10,nominal,10000

@@ -1,0 +1,9 @@
+id,name,type,size,price,image_url
+sn1,"Popcorn Caramel","Popcorn","L",45000,"https://example.com/snacks/popcorn-caramel-l.jpg"
+sn2,"Popcorn Caramel","Popcorn","M",35000,"https://example.com/snacks/popcorn-caramel-m.jpg"
+sn3,"Popcorn Salted","Popcorn","L",40000,"https://example.com/snacks/popcorn-salted-l.jpg"
+sn4,"Popcorn Salted","Popcorn","M",30000,"https://example.com/snacks/popcorn-salted-m.jpg"
+sn5,"Cola","Drink","M",20000,"https://example.com/snacks/cola-m.jpg"
+sn6,"Ice Lemon Tea","Drink","M",18000,"https://example.com/snacks/lemon-tea-m.jpg"
+sn7,"Combo Duo","Combo","L",80000,"https://example.com/snacks/combo-duo.jpg"
+sn8,"Combo Family","Combo","L",150000,"https://example.com/snacks/combo-family.jpg"
